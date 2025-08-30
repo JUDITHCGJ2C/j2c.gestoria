@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>J2C Gestoría | Trámites vehiculares y más</title>
+  <meta name="description" content="J2C Gestoría: trámites vehiculares rápidos y seguros. Legalización, altas y bajas, canje de placas, cambio de propietario, constancias y más. Contáctanos: 444 467 8819." />
+  <meta property="og:title" content="J2C Gestoría" />
+  <meta property="og:description" content="Trámites vehiculares rápidos y seguros. ¡Escríbenos por WhatsApp!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.facebook.com/profile.php?id=61554385082772&sk=reels_tab" />
+  <meta name="theme-color" content="#5b2b9e" />
+  <style>
+    :root{
+      --bg:#f7f6fb; --text:#1a1233; --muted:#6b5a99; --brand:#6a1b9a; --brand-2:#9c27b0; --card:#ffffff; --ok:#2e7d32;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0}
+    body{font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji","Segoe UI Emoji"; background:var(--bg); color:var(--text); line-height:1.5}
+    a{color:inherit}
+    .container{max-width:1100px; margin:0 auto; padding:0 20px}
+    header{position:sticky; top:0; z-index:50; backdrop-filter:saturate(180%) blur(10px); background:rgba(255,255,255,.7); border-bottom:1px solid #eee}
+    .nav{display:flex; align-items:center; justify-content:space-between; padding:12px 0}
+    .brand{display:flex; align-items:center; gap:10px; font-weight:800; letter-spacing:.3px}
+    .logo{width:36px; height:36px; border-radius:12px; background:linear-gradient(135deg, var(--brand), var(--brand-2)); display:grid; place-items:center; color:#fff; font-weight:900}
+    .nav a{font-weight:600; text-decoration:none; padding:8px 10px; border-radius:10px}
+    .nav a:hover{background:#eee}
+    .hero{background: radial-gradient(1200px 500px at 20% -20%, #ede7f6, transparent), linear-gradient(180deg,#ffffff, #f4ecff 40%, #f7f6fb);}
+    .hero-inner{padding:64px 0 40px; display:grid; gap:22px}
+    h1{font-size: clamp(28px, 4vw, 44px); margin:0}
+    .lead{color:var(--muted); font-size:clamp(16px, 2.1vw, 20px)}
+    .cta{display:flex; gap:12px; flex-wrap:wrap}
+    .btn{display:inline-flex; align-items:center; gap:10px; padding:12px 18px; border-radius:14px; text-decoration:none; font-weight:700; border:2px solid transparent}
+    .btn.primary{background:linear-gradient(135deg, var(--brand), var(--brand-2)); color:#fff}
+    .btn.secondary{background:#fff; border-color:#e5d9ff}
+    .pill{display:inline-block; font-size:12px; background:#efe7ff; color:#4a148c; padding:6px 10px; border-radius:999px; font-weight:700}
+    section{padding:56px 0}
+    h2{font-size: clamp(22px, 3vw, 32px); margin:0 0 18px}
+    .muted{color:var(--muted)}
+    .grid{display:grid; grid-template-columns:repeat(12,1fr); gap:16px}
+    .card{grid-column:span 12; background:var(--card); border:1px solid #eee; border-radius:18px; padding:18px; box-shadow:0 10px 30px rgba(75,0,130,0.06)}
+    .card h3{margin:0 0 6px; font-size:18px}
+    .card p{margin:0}
+    @media(min-width:720px){.card{grid-column:span 4}.w-6{grid-column:span 6}}
+    .steps{counter-reset: step}
+    .step{position:relative; padding-left:54px; margin:18px 0; background:#fff; border:1px dashed #e3d7ff; border-radius:16px; padding:16px 16px 16px 54px}
+    .step::before{counter-increment: step; content: counter(step); position:absolute; left:12px; top:50%; transform:translateY(-50%); width:28px; height:28px; border-radius:50%; background:linear-gradient(135deg, var(--brand), var(--brand-2)); color:#fff; display:grid; place-items:center; font-weight:900}
+    details{background:#fff; border:1px solid #eee; border-radius:14px; padding:14px 16px}
+    details+details{margin-top:12px}
+    summary{cursor:pointer; font-weight:700}
+    footer{background:#11091f; color:#f1eaff}
+    .footer-inner{display:grid; gap:8px; padding:28px 0}
+    .copy{opacity:.7}
+    .float-wa{position:fixed; right:18px; bottom:18px; width:58px; height:58px; border-radius:18px; background:linear-gradient(135deg,#25d366,#128c7e); color:#fff; display:grid; place-items:center; text-decoration:none; font-weight:900; box-shadow:0 12px 30px rgba(0,0,0,.2)}
+    .sr-only{position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">J2C</div>
+        <span>J2C Gestoría</span>
+      </div>
+      <nav>
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Cómo trabajamos</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <span class="pill">Trámites confiables y rápidos</span>
+      <h1>Gestoría vehicular sin complicaciones</h1>
+      <p class="lead">Legalización, placas nuevas o canje, cambio de propietario, altas/bajas, adeudos, constancias y más. Nos encargamos de todo por ti.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://wa.me/524444678819" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="btn secondary" href="tel:+524444678819">📞 Llamar 444 467 8819</a>
+        <a class="btn secondary" href="https://www.facebook.com/profile.php?id=61554385082772&sk=reels_tab" target="_blank">📘 Facebook</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios">
+    <div class="container">
+      <h2>Servicios principales</h2>
+      <div class="grid" style="margin-top:14px">
+        <article class="card"><h3>Legalización vehicular</h3><p>Regulariza tu vehículo con asesoría completa y checklist de documentos.</p></article>
+        <article class="card"><h3>Placas: altas y canje</h3><p>Tramitamos placas nuevas, canje y tarjetas de circulación sin filas.</p></article>
+        <article class="card"><h3>Cambio de propietario</h3><p>Actualiza la titularidad y evita contratiempos legales y multas.</p></article>
+        <article class="card"><h3>Altas y bajas administrativas</h3><p>Trámites ante finanzas estatales con validación de documentos.</p></article>
+        <article class="card"><h3>Adeudos vehiculares</h3><p>Consulta y regularización de tenencias, refrendos y recargos.</p></article>
+        <article class="card"><h3>Constancias y citas</h3><p>CURP certificada, RFC, constancia fiscal y apoyo con citas.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="proceso" style="background:#f1ecff30">
+    <div class="container">
+      <h2>Cómo trabajamos</h2>
+      <div class="steps w-6">
+        <div class="step"><strong>Diagnóstico gratuito.</strong> Te indicamos requisitos y tiempos según tu caso.</div>
+        <div class="step"><strong>Recepción de documentos.</strong> Envío digital o entrega física; validamos todo.</div>
+        <div class="step"><strong>Trámite y entrega.</strong> Te mantenemos al tanto y entregamos comprobantes.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonios">
+    <div class="container">
+      <h2>Testimonios</h2>
+      <div class="grid" style="margin-top:14px">
+        <blockquote class="card"><h3>★ ★ ★ ★ ★</h3><p>“Me legalizaron una F-150 rapidísimo y sin vueltas. Súper recomendados.”</p><p class="muted">— Cliente verificado</p></blockquote>
+        <blockquote class="card"><h3>★ ★ ★ ★ ★</h3><p>“Hicieron el canje de placas y me entregaron todo en orden. Excelente atención.”</p><p class="muted">— Cliente verificado</p></blockquote>
+        <blockquote class="card"><h3>★ ★ ★ ★ ★</h3><p>“Cambio de propietario sin estrés, me explicaron paso a paso.”</p><p class="muted">— Cliente verificado</p></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" style="background:#ffffff">
+    <div class="container">
+      <h2>Preguntas frecuentes</h2>
+      <details>
+        <summary>¿Qué documentos necesito para canje de placas?</summary>
+        <p>Generalmente: placas actuales, tarjeta de circulación, factura/INE y comprobante de domicilio. Podemos confirmarlo por WhatsApp.</p>
+      </details>
+      <details>
+        <summary>¿Puedo iniciar el trámite a distancia?</summary>
+        <p>Sí. Puedes enviarnos documentos legibles por WhatsApp. Te indicamos si es necesaria la presentación del vehículo.</p>
+      </details>
+      <details>
+        <summary>¿Cómo se realizan los pagos?</summary>
+        <p>Anticipo y liquidación al entregar comprobantes. Te damos recibo y seguimiento.</p>
+      </details>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="container">
+      <h2>Contacto</h2>
+      <div class="grid">
+        <div class="card w-6">
+          <h3>Teléfono</h3>
+          <p><a href="tel:+524444678819"><strong>444 467 8819</strong></a></p>
+          <div class="cta" style="margin-top:10px">
+            <a class="btn primary" href="https://wa.me/524444678819" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn secondary" href="tel:+524444678819">Llamar</a>
+          </div>
+        </div>
+        <div class="card w-6">
+          <h3>Dirección</h3>
+          <p>Av. Seminario 141, Los Silos, 78394 San Luis Potosí, S.L.P.</p>
+          <a class="btn secondary" href="https://maps.app.goo.gl/8mPvaii2tD4Fg3ku8" target="_blank">📍 Ver en Google Maps</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="brand"><div class="logo" aria-hidden="true">J2C</div><span>J2C Gestoría</span></div>
+      <small class="copy">© <span id="year"></span> J2C Gestoría. Todos los derechos reservados.</small>
+    </div>
+  </footer>
+
+  <a class="float-wa" href="https://wa.me/524444678819" target="_blank" rel="noopener" aria-label="Chatear por WhatsApp">
+    <span aria-hidden="true">🟢</span>
+    <span class="sr-only">WhatsApp</span>
+  </a>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
